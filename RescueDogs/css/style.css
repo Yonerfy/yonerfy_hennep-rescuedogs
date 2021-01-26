@@ -1,0 +1,172 @@
+
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+img {
+    width: 390px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.container {
+    margin: auto;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+   grid-template-rows: 1fr 4f 1fr;
+}
+
+.header{
+   margin: 50px 0 0 0; 
+}
+
+.footer {
+    background-color: #CB0000;
+    color: white;    
+}
+
+.footer p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.second-nav ul {
+    list-style: none;
+}
+.second-nav ul li {
+    text-decoration: none;
+}
+
+.second-nav ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+.other-links {
+    list-style: none;
+}
+.other-links li {
+    text-decoration: none;
+}
+
+.other-links li a {
+    color: white;
+    font-size: 16px;
+}
+.nav ul {
+    padding-left: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    color: #3C3C3C;
+    padding-right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.h1-hero {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #CB0000;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #CB0000;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: 40px;
+    padding: 10px 10px;
+}
+
+.link-less-verder {
+    color: #CB0000;
+    font-size: 18px ;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer img {
+    padding: 40px 0 0 40px;
+}
+
+form {
+    padding: 0 0 50px 0;
+    width: 400px;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px #CB0000 solid;
+
+}
+textarea {
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px #CB0000 solid;
+}
+
+.btn-sture {
+    background-color: #CB0000;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    height: 40px;
+    padding: 5px 15px;
+}
+
+iframe {
+    width: 400px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+        width: 1000px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 4f 1fr;
+       
+    }
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+
+    img {
+        width: 1000px;
+    }
+    .section-1 {
+        padding: 50px 0;
+    }
+    .section-2 {
+        padding: 0 0 50px 0 ;
+    }
+   
+
+}
